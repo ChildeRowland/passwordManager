@@ -1,3 +1,15 @@
 This is a locally running node app for storing passwords.
 
 All the information is incrypted, and requires a master password for all changes.
+
+To see the list of commands run:
+
+	node app.js --help
+
+Add login credentials with:
+
+	node app.js create
+
+Find stored credentials with:
+
+	node app.js find

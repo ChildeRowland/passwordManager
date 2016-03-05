@@ -68,9 +68,7 @@ if (command === 'create') {
 	}
 }
 
-var pass = pass || new MasterPasswordDTO;
-console.log(pass);
 
-pass.change('goober');
-console.log(pass);
+
+
 
